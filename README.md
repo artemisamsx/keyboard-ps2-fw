@@ -27,7 +27,7 @@ After this is completed, we can compile with:
 make compile
 ```
 
-This will generate a `ps2kbr.bin` file that contains the firmware image ready to be flashed in a ATMEGA328P.
+This will generate a `keyboard-ps2-fw.bin` file that contains the firmware image ready to be flashed in a ATMEGA328P.
 
 ## Burn
 
