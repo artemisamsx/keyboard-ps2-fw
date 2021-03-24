@@ -1,9 +1,9 @@
 DEVICE = ATMEGA328P@DIP28
-HEX_IMAGE = ps2kbr.hex
-BIN_IMAGE = ps2kbr.bin
-ELF_IMAGE = ps2kbr.elf
+HEX_IMAGE = keyboard-ps2-fw.hex
+BIN_IMAGE = keyboard-ps2-fw.bin
+ELF_IMAGE = keyboard-ps2-fw.elf
 
-SOURCES = ${wildcard *.cpp} ${wildcard *.h} ${wildcard ps2/*.h} ps2kbr.ino
+SOURCES = ${wildcard *.cpp} ${wildcard *.h} ${wildcard ps2/*.h} keyboard-ps2-fw.ino
 
 .PHONY: all
 all: compile
