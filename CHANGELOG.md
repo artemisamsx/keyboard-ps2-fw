@@ -1,6 +1,6 @@
 # PS2 Keyboard Adapter Firmware Changelog
 
-## Not released
+## v1.1.0 (2021-08-05)
 
 - Full rewrite of the PS2 library.
 
